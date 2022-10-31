@@ -6,7 +6,6 @@ root.title("Calculator")
 
 display = Entry(root, width=35, borderwidth=5,bg='white')
 
-presses=''
 def button_click(number):
 	current = display.get()
 	display.delete(0,END)
